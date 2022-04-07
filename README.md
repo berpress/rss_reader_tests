@@ -11,3 +11,8 @@ Use python 3.8 + Create and activate virtual environments
 python3 -m venv env
 source env/bin/activate
 ```
+pre-commit https://pre-commit.com/
+```angular2html
+pip install pre-commit
+pre-commit install
+```
