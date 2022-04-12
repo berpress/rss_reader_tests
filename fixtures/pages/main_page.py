@@ -1,6 +1,10 @@
+import logging
+
 from selenium.webdriver.common.by import By
 
 from fixtures.pages.base_page import BasePage
+
+logger = logging.getLogger("rss")
 
 
 class MainPage(BasePage):
@@ -19,6 +23,7 @@ class MainPage(BasePage):
         Add css url on main page
         :param url: url
         """
+        logger.info(f'Add url: {url}')
         self.fill(locator=self.INPUT, value=url)
         self.click(locator=self.SUBMIT)
 
