@@ -19,7 +19,6 @@ def pytest_addoption(parser):
 def app(request):
     url = request.config.getoption("--url")
     driver = webdriver.Chrome(ChromeDriverManager().install())
-    driver.implicitly_wait(10)  # seconds
     app = Application(driver, url)
     yield app
     app.quit()
