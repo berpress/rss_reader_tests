@@ -2,6 +2,8 @@
 
 [![Build Status](https://app.travis-ci.com/berpress/rss_reader_tests.svg?branch=main)](https://app.travis-ci.com/berpress/rss_reader_tests)
 
+[![Python application](https://github.com/berpress/rss_reader_tests/actions/workflows/python-app.yml/badge.svg)](https://github.com/berpress/rss_reader_tests/actions/workflows/python-app.yml)
+
 Selenium python rss reader tests
 
 Our test app https://rss-litovsky.vercel.app/
